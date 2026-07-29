@@ -1,0 +1,16 @@
+{
+  "name": "合鍵板",
+  "short_name": "合鍵板",
+  "description": "合い鍵を渡した人だけで30日共有する小さな掲示板",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ece8db",
+  "theme_color": "#315d56",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
