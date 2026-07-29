@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /b/
+Disallow: /api/
+
+Sitemap: https://aikagi-ban.yhay81.com/sitemap.xml
