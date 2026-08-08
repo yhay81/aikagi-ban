@@ -18,21 +18,21 @@
     "cf-typegen": "wrangler types"
   },
   "dependencies": {
-    "hono": "4.12.34"
+    "hono": "4.13.0"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "1.47.0",
-    "@cloudflare/workers-types": "5.20260726.1",
+    "@cloudflare/vite-plugin": "1.51.0",
+    "@cloudflare/workers-types": "5.20260804.1",
     "@types/node": "^26.1.2",
-    "@voidzero-dev/vite-plus-core": "0.2.6",
-    "miniflare": "^4.20260722.0",
-    "oxfmt": "0.60.0",
-    "oxlint": "1.75.0",
+    "@voidzero-dev/vite-plus-core": "0.2.8",
+    "miniflare": "^4.20260730.0",
+    "oxfmt": "0.62.0",
+    "oxlint": "1.77.0",
     "typescript": "7.0.2",
     "vite": "npm:@voidzero-dev/vite-plus-core@0.2.6",
-    "vite-plus": "0.2.6",
+    "vite-plus": "0.2.8",
     "vitest": "4.1.10",
-    "wrangler": "4.114.0"
+    "wrangler": "4.119.0"
   },
   "overrides": {
     "vite": "npm:@voidzero-dev/vite-plus-core@0.2.6"
