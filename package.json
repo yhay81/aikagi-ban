@@ -24,18 +24,18 @@
     "@cloudflare/vite-plugin": "1.51.1",
     "@cloudflare/workers-types": "5.20261125.1",
     "@types/node": "^26.1.2",
-    "@voidzero-dev/vite-plus-core": "0.2.6",
+    "@voidzero-dev/vite-plus-core": "8.3.8001",
     "miniflare": "^5.20260801.1-alpha",
     "oxfmt": "0.80.0",
-    "oxlint": "1.75.0",
+    "oxlint": "1.95.0",
     "typescript": "7.0.2",
-    "vite": "npm:@voidzero-dev/vite-plus-core@0.2.6",
+    "vite": "npm:@voidzero-dev/vite-plus-core@8.3.8001",
     "vite-plus": "1.8.0",
-    "vitest": "4.1.11",
+    "vitest": "5.1.2",
     "wrangler": "4.120.0"
   },
   "overrides": {
-    "vite": "npm:@voidzero-dev/vite-plus-core@0.2.6"
+    "vite": "npm:@voidzero-dev/vite-plus-core@8.3.8001"
   },
   "engines": {
     "node": ">=24.18.0 <25"
