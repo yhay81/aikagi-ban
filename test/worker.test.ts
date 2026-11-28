@@ -110,10 +110,27 @@ const createPost = async (
 
 beforeEach(async () => {
   miniflare = new Miniflare({
-    d1Databases: { DB: "aikagi-ban-test" },
-    modules: true,
-    r2Buckets: ["PHOTOS"],
-    script: "export default { fetch() { return new Response('test') } }",
+    workers: [
+      {
+        config: {
+          name: "",
+          compatibilityDate: "2026-07-27",
+          env: {
+            DB: { type: "d1", id: "aikagi-ban-test" },
+            PHOTOS: { type: "r2", name: "PHOTOS" },
+          },
+          manifest: {
+            mainModule: "index.mjs",
+            modules: {
+              "index.mjs": {
+                type: "esm",
+                contents: "export default { fetch() { return new Response('test') } }",
+              },
+            },
+          },
+        },
+      },
+    ],
   });
   const database = await miniflare.getD1Database("DB");
   const photos = await miniflare.getR2Bucket("PHOTOS");
